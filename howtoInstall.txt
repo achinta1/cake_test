@@ -1,0 +1,22 @@
+Step 1: Install composer
+
+Step 2: php composer.phar create-project --prefer-dist cakephp/app my_app_name
+ 		Or if Composer is installed globally:
+	composer self-update && composer create-project --prefer-dist cakephp/app my_app_name
+
+Step 3: c:\my_app_name>composer require cakephp/migrations:~1.0
+
+
+//===============After setup the application===============
+//====:::Migrate data base tabe:::============
+Step 1: c:\my_app_name\bin>cake bake migration CreateArticles title:string body:text category_id:integer created modified
+
+//=====::Make model,controller & view using bake:: for rapid development=============== 
+Step 2.1: c:\my_app_name\bin>cake bake model Articles
+Step 2.2: c:\my_app_name\bin>cake bake controller Articles
+Step 2.3: c:\my_app_name\bin>cake bake template Articles
+  OR
+Step 2: c:\my_app_name\bin>cake bake all Articles
+
+Step 3: download this git application and follow the steps.
+N:B this is for beginners guidance 
