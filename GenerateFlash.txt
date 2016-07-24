@@ -1,0 +1,23 @@
+//===========Setting Flash Messages====================
+// Uses src/Template/Element/Flash/success.ctp
+$this->Flash->success('This was successful');
+
+// Uses src/Template/Element/Flash/great_success.ctp
+$this->Flash->greatSuccess('This was greatly successful');
+
+// In your Controller
+$this->Flash->success('The user has been saved', [
+    'key' => 'positive',
+    'params' => [
+        'name' => $user->name,
+        'email' => $user->email
+    ]
+]);
+
+// In your View
+<?= $this->Flash->render('positive') ?>
+
+<!-- In src/Template/Element/Flash/success.ctp -->
+<div id="flash-<?= h($key) ?>" class="message-info success">
+    <?= h($message) ?>: <?= h($params['name']) ?>, <?= h($params['email']) ?>.
+</div>
