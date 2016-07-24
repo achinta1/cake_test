@@ -1,0 +1,236 @@
+2016-07-24 13:09:37 Error: [Cake\View\Exception\MissingTemplateException] Template file "Articles\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Articles\\index.ctp',
+)
+Request URL: /cake_test/Articles
+Stack Trace:
+#0 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName('Articles\\index')
+#1 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#4 F:\WORK\WEB\htdocs\cake_test\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-07-24 13:36:10 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::articles() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'articles',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /cake_test/articles/articles
+Referer URL: http://localhost/cake_test/articles/edit/1
+Stack Trace:
+#0 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#2 F:\WORK\WEB\htdocs\cake_test\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-07-24 13:36:37 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::articles() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'articles',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /cake_test/articles/articles
+Referer URL: http://localhost/cake_test/articles/edit/1
+Stack Trace:
+#0 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#2 F:\WORK\WEB\htdocs\cake_test\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-07-24 13:36:49 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::articles() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'articles',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /cake_test/articles/articles
+Referer URL: http://localhost/cake_test/articles/edit/1
+Stack Trace:
+#0 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#2 F:\WORK\WEB\htdocs\cake_test\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-07-24 14:14:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Category could not be found.
+Exception Attributes: array (
+  'class' => 'Category',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake_test/Category
+Stack Trace:
+#0 F:\WORK\WEB\htdocs\cake_test\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-07-24 14:14:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Categries could not be found.
+Exception Attributes: array (
+  'class' => 'Categries',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake_test/Categries
+Stack Trace:
+#0 F:\WORK\WEB\htdocs\cake_test\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-07-24 14:56:45 Warning: Warning (2): Declaration of App\Controller\UsersController::beforeFilter(App\Controller\Event $event) should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [F:\WORK\WEB\htdocs\cake_test\src\Controller\UsersController.php, line 11]
+Request URL: /cake_test/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Controller\UsersController.php, line 11
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 151
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 91
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 411
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 373
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-24 14:56:46 Error: [TypeError] Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Event\EventManager.php on line 407
+Request URL: /cake_test/users
+Stack Trace:
+#0 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Event\EventManager.php(407): App\Controller\UsersController->beforeFilter(Object(Cake\Event\Event))
+#1 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Event\EventManager.php(373): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#2 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#3 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Controller\Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#4 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#5 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 F:\WORK\WEB\htdocs\cake_test\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-07-24 14:56:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class User could not be found.
+Exception Attributes: array (
+  'class' => 'User',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake_test/user
+Stack Trace:
+#0 F:\WORK\WEB\htdocs\cake_test\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-07-24 14:56:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Usera could not be found.
+Exception Attributes: array (
+  'class' => 'Usera',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake_test/usera
+Stack Trace:
+#0 F:\WORK\WEB\htdocs\cake_test\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-07-24 14:57:05 Warning: Warning (2): Declaration of App\Controller\UsersController::beforeFilter(App\Controller\Event $event) should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [F:\WORK\WEB\htdocs\cake_test\src\Controller\UsersController.php, line 11]
+Request URL: /cake_test/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Controller\UsersController.php, line 11
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 151
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 91
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 51
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 411
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 373
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-07-24 14:57:05 Error: [TypeError] Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Event\EventManager.php on line 407
+Request URL: /cake_test/users
+Stack Trace:
+#0 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Event\EventManager.php(407): App\Controller\UsersController->beforeFilter(Object(Cake\Event\Event))
+#1 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Event\EventManager.php(373): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#2 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#3 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Controller\Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#4 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#5 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 F:\WORK\WEB\htdocs\cake_test\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-07-24 14:57:51 Error: [Error] Call to a member function allow() on boolean
+Request URL: /cake_test/users
+Stack Trace:
+#0 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Event\EventManager.php(407): App\Controller\UsersController->beforeFilter(Object(Cake\Event\Event))
+#1 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Event\EventManager.php(373): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#2 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#3 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Controller\Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#4 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#5 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 F:\WORK\WEB\htdocs\cake_test\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-07-24 14:59:27 Error: [Error] Call to a member function allow() on boolean
+Request URL: /cake_test/users
+Stack Trace:
+#0 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Event\EventManager.php(407): App\Controller\UsersController->beforeFilter(Object(Cake\Event\Event))
+#1 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Event\EventManager.php(373): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#2 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#3 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Controller\Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#4 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#5 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 F:\WORK\WEB\htdocs\cake_test\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-07-24 15:00:19 Error: [Error] Call to a member function allow() on boolean
+Request URL: /cake_test/users
+Stack Trace:
+#0 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Event\EventManager.php(407): App\Controller\UsersController->beforeFilter(Object(Cake\Event\Event))
+#1 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Event\EventManager.php(373): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#2 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#3 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Controller\Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#4 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#5 F:\WORK\WEB\htdocs\cake_test\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 F:\WORK\WEB\htdocs\cake_test\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-07-24 15:17:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Login could not be found.
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake_test/login
+Stack Trace:
+#0 F:\WORK\WEB\htdocs\cake_test\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
